@@ -1,0 +1,13 @@
+{
+    "name": "hyc/csv",
+    "description": "csv",
+    "type": "library",
+    "license": "mit",
+    "authors": [
+        {
+            "name": "HuYanChang",
+            "email": "976262957@qq.com"
+        }
+    ],
+    "require": {}
+}
