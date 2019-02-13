@@ -33,7 +33,7 @@ class Csv
             $exportData = [];
             foreach ($arrayKeys as $k) {
                 if($isHasKey == false) $value = array_values($value);
-                $exportData[$k] = addslashes(iconv('utf-8', 'GBK//IGNORE', str_replace("\n", '',str_replace(',', '， ', $value[$k]))));
+                $exportData[$k] = addslashes(iconv('utf-8', 'GBK//IGNORE', str_replace("\n", '',str_replace(',', '', $value[$k]))));
             }
             $string .= implode(',', $exportData) . "\n";
         }
